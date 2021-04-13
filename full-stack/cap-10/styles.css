@@ -1,0 +1,168 @@
+/* Imports 
+    - Fonts 
+      - Roboto (Sans-Serif)
+          Thin 100
+          Thin 100 italic
+          Light 300
+          Regular 400
+          Regular 400 italic
+          Bold 700
+      - Roboto Slab (Serif)
+          Regular 400
+          Bold 700
+      - Roboto Mono
+          Extra-light 200
+          Extra-light 200 italic
+          Regular 400
+          Regular 400 italic
+          Bold 700
+
+      
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,400;0,700;1,200;1,400&family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400&display=swap");
+
+/* Universal Rules */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+section {
+  border: 1px solid black;
+  width: 90%;
+  margin: 2% auto;
+  padding: 25px;
+}
+
+/* Block Colors */
+.colors article {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.color-block {
+  margin: 20px;
+  height: 125px;
+  width: 250px;
+  border: 1px solid black;
+}
+/* Light Theme */
+#cF0E3CA {
+  background-color: #f0e3ca;
+}
+
+#cFF8303 {
+  background-color: #ff8303;
+}
+
+#cA35709 {
+  background-color: #a35709;
+  color: white;
+}
+
+#c1B1A17 {
+  background-color: #1b1a17;
+  color: white;
+}
+/* Dark Theme */
+#cBB86FC {
+  background-color: #bb86fc;
+}
+
+#c3700B3 {
+  background-color: #3700b3;
+  color: white;
+}
+
+#c03DAC6 {
+  background-color: #03dac6;
+}
+
+#c018786 {
+  background-color: #018786;
+  color: white;
+}
+
+/* Fonts */
+
+.fonts div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.roboto-normal {
+  font-family: "Roboto";
+}
+
+.roboto-slab {
+  font-family: "Roboto Slab";
+}
+
+.roboto-mono {
+  font-family: "Roboto Mono";
+}
+
+/* Text Styles */
+
+h2,
+h3,
+p {
+  margin: 1rem;
+}
+
+h1 {
+  margin: 20px auto;
+  font-size: 3.6rem;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  width: max-content;
+}
+
+.text-styles h1 {
+  margin: 1rem;
+  width: unset;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.6rem;
+  font-family: "Roboto";
+}
+
+.text-styles article {
+  margin-top: 20px;
+  border: 1px dotted black;
+  padding: 5px 20px;
+}
+
+.text-styles article div {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+em {
+  font-weight: 700;
+  font-style: normal;
+}
+
+ul li p {
+  word-spacing: 0.5rem;
+}
